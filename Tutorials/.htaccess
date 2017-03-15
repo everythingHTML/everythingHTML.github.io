@@ -1,0 +1,13 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC,L]
+<Files ~ "^\.(htaccess|htpasswd)$">
+deny from all
+</Files>
+Options Indexes
+ErrorDocument 400 BadRequest.html
+ErrorDocument 403 Forbidden.html
+ErrorDocument 404 ComingSoon.html
+DirectoryIndex index.html
+order deny,allow
+deny from https://mazeby.github.io/Tutorials/

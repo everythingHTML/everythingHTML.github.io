@@ -1,0 +1,96 @@
+/*------------------Import Font---------------*/
+@font-face {
+  font-family: Aaargh;
+  src: url("../fonts/Aaargh.otf");
+}
+
+/*------------------HeadImage---------------*/
+.Header {
+  background-color: #FFF;
+  max-width: auto;
+  overflow:hidden;
+}
+
+.HeadImage {
+  width: auto;
+  position:relative;
+  left:50%;
+  margin-left: -584.19px;
+}
+
+.HeadImage img {
+  display:block;
+  height: 120px;
+}
+
+/*------------------NavBar---------------*/
+.NavbarList {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-right: 10px;
+  padding-left: 10px;
+  overflow: hidden;
+  background-color: #333;
+  box-shadow: 0px 4px 4px rgba(0,0,0,0.5);
+}
+
+.Tabs {
+  display: inline-block;
+}
+
+.Tabs:hover > ul.SubNav {
+  display: block;
+  background-color: #333;
+  list-style-type: none;
+  text-align: center;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+ul.SubNav {
+  padding: 0;
+  display: none;
+  position: absolute;
+  list-style-type: none;
+  overflow: hidden;
+  box-shadow: 4px 4px 4px rgba(0,0,0,0.5);
+}
+
+.SubTab {
+  position: relative;
+  text-align: left;
+  list-style-type: none;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.SubTab:hover {
+  position: relative;
+  text-align: left;
+  list-style-type: none;
+  background-color: #E77C00;
+}
+
+.TabsLeft {
+  display: inline-block;
+  float: right;
+}
+
+.TabsLeft a,
+.Tabs a {
+  display: inline-block;
+  text-align: center;
+  font-family: Arial;
+  font-size: 1vw;
+  padding: 15px 15px;
+  color: white;
+  text-decoration:none;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.TabsLeft a:hover,
+.Tabs a:hover {
+  background-color: #E77C00;
+}
