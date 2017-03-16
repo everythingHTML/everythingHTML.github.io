@@ -81,3 +81,35 @@
 .HorizontalButtons {
   display: inline-block;
 }
+
+.text-container {
+  margin: 1vw;
+  overflow: hidden;
+  display: block;
+}
+
+.line-number {
+  text-align: center;
+  font-size: 1.4vw;
+  float: left;
+  padding: 1vw;
+  margin: 0;
+  color: #fff;
+  background-color: #2d2c2c;
+  border-color:#FFF;
+  width: 1.5%;
+  overflow: hidden;
+  resize: none;
+}
+
+.text-area {
+  font-size: 1.4vw;
+  padding: 1vw;
+  margin: 0;
+  color: #fff;
+  background-color: #3d3d3d;
+  border-color:#FFF;
+  width: 91.1%;
+  overflow: hidden;
+  resize: none;
+}

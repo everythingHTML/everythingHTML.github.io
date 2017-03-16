@@ -39,13 +39,39 @@
 
   <body>
     <div class="Headline">
-      <h1>There seems to be nothing here yet, but we are working on it!</h1>
+      <h1>The basic page design:</h1>
     </div>
     <div class="MainTextWide">
-      <p class="Code">
-        Error 404: Could not find time to create this page yet!
-      </p>
+      <p>Every HTML document follows a certain structure and has to include some tags.
+        This will also be the point where we will be starting to learn the first couple
+        of tags, starting with</p>
+      <xmp>    <!DOCTYPE html></xmp>
+      <p>This tag defines the type of the file, in our case it is a HTML document, which
+        is why we put the html in there. This tag has to always appear in the very first
+        line of the HTML document, since that is where the browser will start reading your
+        code. It has to be on every .html file you have and has to always appear on the top
+        of it.<br/><br/><br/>
+        The next tag, every file will need is</p>
+        <xmp>   <html></xmp>
+        <p>Please note, that this tag is in no way related to &lt;!DOCTYPE&gt; since this one shows
+          the browser where your html code will actually begin and end. It should only appear
+          once in your file with the opening tag appearing right beneath &lt;!DOCTYPE&gt; and the
+          closing tag should be the very last tag of the entire code.<br/>
+          <b>Example:</b></p>
+          <div class="text-container">
+          <textarea rows="4" readonly class="line-number">
+1
+2
+3
+4
+          </textarea>
+          <textarea rows="4" readonly class="text-area">
+<!DOCTYPE html>
+  <html>
+    [code content here]
+  </html>
+      </textarea>
+    </div>
     </div>
   </body>
-
 </html>
