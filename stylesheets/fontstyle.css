@@ -97,3 +97,14 @@ xmp {
   line-height: 0%;
   white-space: pre-wrap;
 }
+
+.author-heading {
+  color: #E77C00;
+  font-size: 1.3vw;
+}
+
+
+.author-text {
+  color: #FFF;
+  font-size: 1.2vw;
+}
