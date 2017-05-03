@@ -69,7 +69,7 @@ xmp {
 
 .LinkCenter {
   text-align: center;
-  font-size: 1.8vw;
+  font-size: 1.5vw;
   font-family: Aaargh;
   color: #FFFFFF;
   line-height: 100%;
@@ -80,7 +80,7 @@ xmp {
 }
 
 .LinkCenter:hover {
-  font-size: 1.8vw;
+  font-size: 1.5vw;
   color: #333;
   background-color:  #00fc65;
   -webkit-transition: 0.3s;
@@ -88,7 +88,7 @@ xmp {
 }
 
 .LinkCenter:active {
-  font-size: 1.7vw;
+  font-size: 1.4vw;
   color: #333;
   background-color:  #03d256;
 }
