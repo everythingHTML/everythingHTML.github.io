@@ -13,32 +13,25 @@
     <link rel="stylesheet" type="text/css" href="../importStyles.css" media="screen" />
   </head>
 
-    <header>
-      <div class="Header">
-        <div class="HeadImage">
-          <img src="../images/Header.jpg" />
-        </div>
-      </div>
-      <div class="NavBar">
-        <ul class="NavbarList">
-          <li class="Tabs"><a href="../index.html">Home</a></li>
-          <li class="Tabs"><a href="../HTML tutorials.html">HTML tutorials</a>
-            <ul class="SubNav">
-              <li class="SubTab"><a href="../Tutorials/Introduction.html">Introduction</a></li>
-              <li class="SubTab"><a href="../Tutorials/Tutorial1.html">Tutorial 1</a></li>
-              <li class="SubTab"><a href="../Tutorials/Tutorial2.html">Tutorial 2</a></li>
-              <li class="SubTab"><a href="../Tutorials/Tutorial3.html">Tutorial 3</a></li>
-              <li class="SubTab"><a href="../Tutorials/Tutorial4.html">Tutorial 4</a></li>
-              <li class="SubTab"><a href="../ComingSoon.html">More coming Soon!</a></li>
-            </ul>
-          </li>
-          <li class="Tabs"><a href="../ComingSoon.html">Coming Soon!</a></li>
-          <li class="TabsLeft"><a href="../About.html">About</a></li>
-        </ul>
-      </div>
-    </header>
+  <header>
+    <div class="NavBarVertical">
+        <a class="LogoTab" href="../index.html"><img src="../images/logo.png" class="Logo"/></a>
+        <a class="VTabs" href="../HTML tutorials.html">HTML tutorials</a>
+        <a class="VTabsLeft" href="../About.html">About</a>
+    </div>
+    <div class="NavBar">
+        <a class="Tabs" href="../Tutorials/Introduction.html">Introduction</a>
+        <a class="Tabs" href="../Tutorials/Tutorial1.html">Chapter 1</a>
+        <a class="Tabs" href="../Tutorials/Tutorial2.html">Chapter 2</a>
+        <a class="Tabs" href="../Tutorials/Tutorial3.html">Chapter 3</a>
+        <a class="Tabs" href="../Tutorials/Tutorial4.html">Chapter 4</a>
+        <a class="Tabs" href="../ComingSoon.html">Coming Soon!</a>
+    </div>
+  </header>
 
   <body>
+    <div class="Main">
+      <div class="MainTopSpacer"><br/></div>
     <div class="authorbox">
       <p class="author-heading"><b>The Author</b></p>
       <p class="author-text"> Isak Mikaelson</p>
@@ -52,7 +45,11 @@
     Adding an image to your website will make it a lot nicer to
     look at and easier to navigate. To do this we need to use
     the image tag which looks like this:</p>
+<<<<<<< HEAD
     <xmp><img /></xmp><br/>
+=======
+    <xmp><img></xmp><br/>
+>>>>>>> Overhaul&Redesign
     <p>Note that this tag does not have a closing tag, instead
       it ends with a forward slash. You also need to add the
       source (src) of where the image is saved, with quotation
@@ -133,5 +130,6 @@
       <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
       <script id="dsq-count-scr" src="//everythinghtml.disqus.com/count.js" async></script>
     </div>
+  </div>
 </body>
 </html>

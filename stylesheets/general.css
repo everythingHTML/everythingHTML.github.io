@@ -2,12 +2,12 @@
 header {
   margin:0;
   padding:0;
+
 }
 
 body {
   margin:0;
   padding:0;
-  background-image: url("../images/pcbg.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

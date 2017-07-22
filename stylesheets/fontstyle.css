@@ -16,26 +16,33 @@
  }
 /*--------------------*/
 h1 {
-  font-size: 2.8vw;
+  font-size: 1.5vw;
   font-family: UniSansThin;
   color: #E77C00;
 }
 
 h2 {
-  font-size: 2.2vw;
+  font-size: 1.1vw;
   font-family: UniSansThin;
   color: #333;
 }
 
 p {
-  font-size: 1.4vw;
+  font-size: 0.9vw;
   font-family: Aaargh;
   color: #333;
   line-height: 120%;
 }
 
+xmp {
+  font-size: 0.9vw;
+  font-family: mono-space;
+  line-height: 0%;
+  white-space: pre-wrap;
+}
+
 .Link {
-  font-size: 1.8vw;
+  font-size: 1.1vw;
   font-family: Aaargh;
   color: #FFFFFF;
   line-height: 100%;
@@ -47,14 +54,14 @@ p {
 }
 
 .Link:hover {
-  font-size: 1.8vw;
+  font-size: 1.1vw;
   background-color:  #E77C00;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 
 .Link:active {
-  font-size: 1.7vw;
+  font-size: 1vw;
   background-color:  #d27101;
   -webkit-transition: 0.05s;
   transition: 0.3s;
@@ -62,7 +69,7 @@ p {
 
 .LinkCenter {
   text-align: center;
-  font-size: 1.8vw;
+  font-size: 1.5vw;
   font-family: Aaargh;
   color: #FFFFFF;
   line-height: 100%;
@@ -73,7 +80,7 @@ p {
 }
 
 .LinkCenter:hover {
-  font-size: 1.8vw;
+  font-size: 1.5vw;
   color: #333;
   background-color:  #00fc65;
   -webkit-transition: 0.3s;
@@ -81,21 +88,15 @@ p {
 }
 
 .LinkCenter:active {
-  font-size: 1.7vw;
+  font-size: 1.4vw;
   color: #333;
   background-color:  #03d256;
 }
 
 #BoldHeading {
-  font-size: 1.8vw;
+  font-size: 1.1vw;
   font-family: UniSansThin;
   color: #be6702;
-}
-
-xmp {
-  font-family: mono-space;
-  line-height: 0%;
-  white-space: pre-wrap;
 }
 
 .author-heading {
