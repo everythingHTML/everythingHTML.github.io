@@ -1,0 +1,250 @@
+/*--------FONTS-------*/
+ @font-face {
+   font-family: UniSansThin;
+   src: url("../fonts/Uni-Sans-Thin.otf");
+ }
+
+ @font-face {
+   font-family: Aaargh;
+   src: url("../fonts/Aaargh.otf");
+ }
+
+ @font-face {
+   font-family: mono-space;
+   src: url("../fonts/Anonymous_Pro.otf");
+ }
+
+ @font-face {
+   font-family: Cooper;
+   src: url("../fonts/CooperHewitt-Light.otf");
+ }
+
+ @font-face {
+   font-family: SourceSans;
+   src: url("../fonts/SourceSansPro-Light.otf");
+ }
+
+/*--------------------*/
+* {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+        background: transparent;
+        z-index: 0;
+    }
+
+header {
+  margin:0;
+  padding:0;
+}
+
+body {
+  margin:0;
+  padding:0;
+  background: url("../images/indexbg.png");
+  height: 100%;
+  background-position: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+}
+
+h1 {
+  font-family: UniSansThin;
+  font-size: 8vw;
+  text-align: center;
+  transform: translateY(125%);
+  z-index: 10;
+  color: white;
+  padding-top: 1.5vw;
+  border: 0.3vw solid white;
+  position: relative;
+}
+
+h2 {
+  font-family: UniSansThin;
+  font-size: 1vw;
+  color: #E77C00;
+  margin: 1vw;
+  margin-bottom: 0.1vw;
+}
+
+ul {
+  display: inline-block;
+  margin-right: 2vw
+}
+
+li {
+  display: inline-block;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.text {
+  font-family: SourceSans;
+  color: white;
+  font-size: 1.5vw;
+}
+
+.whiteSpacer {
+  display: block;
+  margin: 3vw 30%;
+  border-style: solid;
+  border-width: 0.1vw;
+  color: white;
+}
+
+.whiteSpacerBottom {
+  display: block;
+  margin: 3vw 3vw;
+  border-style: solid;
+  border-width: 0.1vw;
+  color: white;
+}
+
+.greySpacer {
+  display: block;
+  margin: 1px 30%;
+  border-style: solid;
+  border-width: 0.1vw;
+  color: grey;
+}
+
+.question {
+  text-align: center;
+  font-family: Cooper;
+  font-size: 3vw;
+  color: white;
+  padding: 1vw;
+}
+
+.scroll {
+    transform: translateY(1150%);
+    text-align: center;
+    font-family: Cooper;
+    color: white;
+    font-size: 2vw;
+}
+
+.start {
+  padding: 3vw 1vw;
+  text-align: center;
+  font-family: Cooper;
+  color: grey;
+  font-size: 2vw;
+}
+
+.aCenter {
+  display: inline-block;
+  padding: 3vw 19.25vw;
+  margin: 1vw 1vw;
+  font-family: SourceSans;
+  color: grey;
+  text-decoration: none;
+  font-size: 1.5vw;
+  border: 1px solid grey;
+}
+
+.aCenter:hover {
+  background-color: grey;
+  color: white;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  padding: 3vw 19.25vw;
+}
+
+.aCenter:active {
+  background-color: #E77C00;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  padding: 2.84vw 18.25vw;
+  border: 1px solid #E77C00;
+}
+
+.a {
+  display: inline-block;
+  padding: 3vw 2vw;
+  margin: 1vw 1vw;
+  font-family: SourceSans;
+  color: grey;
+  text-decoration: none;
+  font-size: 1.5vw;
+  border: 1px solid grey;
+}
+
+.a:link {
+  display: inline-block;
+  padding: 3vw 2vw;
+  margin: 1vw 1vw;
+  font-family: SourceSans;
+  color: grey;
+  text-decoration: none;
+  font-size: 1.5vw;
+  border: 1px solid grey;
+}
+
+.a:hover {
+  color: white;
+  background-color: grey;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  padding: 3vw 2vw;
+}
+
+.a:active {
+  background-color: #E77C00;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  border: 1px solid #E77C00;
+  transition: 0.5s;
+  padding: 2.25vw 1.5vw;
+}
+
+#arrow-down {
+  color: white;
+  margin-top: 50%;
+  margin-bottom: 0;
+  font-size: 2.5vw;
+}
+
+.TopBox {
+  margin: 0;
+  padding: 0;
+  padding-left: 20vw;
+  padding-right: 20vw;
+  position: relative;
+  text-align: center;
+}
+
+.OrangeBox {
+  background-color: #E77C00;
+  margin-top: 2vw;
+  padding: 0.1px 12vw;
+  text-align: center;
+}
+
+.WhiteBox {
+  background-color: white;
+  padding: 0.1px 12vw;
+  text-align: center;
+  padding-bottom: 7.5vw;
+}
+
+.Footer {
+  margin-top: 4.5vw;
+  background-color: white;
+  padding: 1vw 6vw;
+  text-align: left;
+}
+
+.text-footer {
+  text-align: left;
+  font-family: Cooper;
+  font-size: 0.9vw;
+  padding-left: 1vw;
+  text-decoration: none;
+  color: grey;
+}
