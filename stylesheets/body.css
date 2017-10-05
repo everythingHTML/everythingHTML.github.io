@@ -4,7 +4,6 @@
 }
 
 .MainTopSpacer {
-
 }
 
 .Headline {
@@ -81,13 +80,25 @@
   display: block;
 }
 
-
 .authorbox {
   background-color: #333;
   float: right;
-  position: static;
+  position: fixed;
   padding: 1vw;
   margin-top: 0.75vw;
-  margin-right: 1%;
+  left: 87.5%;
   transition: 0.4s;
+}
+
+table {
+  width: 100%;
+}
+
+.none {
+  font-size: auto;
+  font-family: auto;
+  font-style: normal;
+  font-weight: normal;
+  font-style: normal;
+  color: black;
 }
