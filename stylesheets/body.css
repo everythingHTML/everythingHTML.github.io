@@ -1,104 +1,247 @@
-.Main {
-  padding-left: 12.20vw;
-  padding-top: 3.5vw;
+@media screen and (min-width: 961px) {
+    .Main {
+        padding-left: 12.20vw;
+        padding-top: 3.5vw;
+    }
+
+    .MainTopSpacer {
+    }
+
+    .Headline {
+        margin: 0 20vw;
+        padding: 1px 10px;
+        background-color: rgba(255, 255, 255, 0.9);
+    }
+
+    .MainPageWrapper {
+        margin: 0.75vw 20vw;
+        padding-bottom: 5px;
+        padding-left: 5px;
+        padding-top: 3px;
+        overflow: hidden;
+        max-height: 100%;
+    }
+
+    .MainText {
+        padding-left: 10px;
+        padding-right: 10px;
+        max-width: 45%;
+        max-height: inherit;
+        float: left;
+        background-color: rgba(255, 255, 255, 0.9);
+    }
+
+    .imageLeft {
+        max-width: 40%;
+        padding-right: 3.5vw;
+        float: right;
+        object-fit: contain;
+    }
+    .imageLeft img{
+        border: rgba(1,1,1,0.5);
+        border-style: solid;
+        border-width: 1px;
+        border-width: thin;
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .MainTextWide {
+        background-color: rgba(255, 255, 255, 0.9);
+        margin: 0.75vw 20vw;
+        padding: 1px 10px;
+    }
+
+    .PageForward {
+        text-align: center;
+        position: relative;
+    }
+
+    .List{
+        background-color: rgba(255, 255, 255, 0.9);
+        margin: 0.75vw 20vw;
+        padding: 1px 10px;
+    }
+
+    .Button {
+        text-align: center;
+    }
+
+    .Button2 {
+        text-align: center;
+    }
+
+    .HorizontalButtons {
+        display: inline-block;
+    }
+
+    .text-container {
+        margin: 1vw;
+        overflow: hidden;
+        display: block;
+    }
+
+    .authorbox {
+        float: right;
+        position: fixed;
+        padding: 1vw;
+        margin-top: 0.75vw;
+        left: 87.5%;
+        transition: 0.4s;
+    }
+
+    .authortextbox{
+        vertical-align: middle;
+        padding-top: 1vw;
+    }
+
+    .authorcircle {
+        background-color: #333;
+        border-radius: 50%;
+        width: 10vw;
+        height: 10vw;
+        text-align: center;
+    }
+
+    table {
+        width: 100%;
+    }
+
+    .none {
+        font-size: auto;
+        font-family: auto;
+        font-style: normal;
+        font-weight: normal;
+        font-style: normal;
+        color: black;
+    }
 }
 
-.MainTopSpacer {
-}
+@media screen and (max-width: 960px) {
+    .Main {
+        padding-left: 1vw;
+        padding-top: 4vw;
+    }
 
-.Headline {
-  margin: 0 20vw;
-  padding: 1px 10px;
-  background-color: rgba(255, 255, 255, 0.9);
-}
+    .MainTopSpacer {
+    }
 
-.MainPageWrapper {
-  margin: 0.75vw 20vw;
-  padding-bottom: 5px;
-  padding-left: 5px;
-  padding-top: 3px;
-  overflow: hidden;
-  max-height: 100%;
-}
+    .Headline {
+        margin: 0 5vw;
+        margin-left: 20vw;
+        padding: 1px 10px;
+        background-color: rgba(255, 255, 255, 0.9);
+    }
 
-.MainText {
-  padding-left: 10px;
-  padding-right: 10px;
-  max-width: 45%;
-  max-height: inherit;
-  float: left;
-  background-color: rgba(255, 255, 255, 0.9);
-}
+    .MainPageWrapper {
+        margin: 0.75vw 5vw;
+        margin-left: 20vw;
+        padding-bottom: 5px;
+        padding-left: 5px;
+        padding-top: 3px;
+        overflow: hidden;
+        max-height: 100%;
+    }
 
-.imageLeft {
-  max-width: 40%;
-  padding-right: 3.5vw;
-  float: right;
-  object-fit: contain;
-}
-.imageLeft img{
-  border: rgba(1,1,1,0.5);
-  border-style: solid;
-  border-width: 1px;
-  border-width: thin;
-  max-width: 100%;
-  max-height: 100%;
-}
+    .MainText {
+        padding-left: 10px;
+        padding-right: 5px;
+        max-width: 60%;
+        max-height: inherit;
+        float: left;
+        background-color: rgba(255, 255, 255, 0.9);
+    }
 
-.MainTextWide {
-  background-color: rgba(255, 255, 255, 0.9);
-  margin: 0.75vw 20vw;
-  padding: 1px 10px;
-}
+    .imageLeft {
+        max-width: 40%;
+        padding-right: 3.5vw;
+        float: right;
+        object-fit: contain;
+    }
+    .imageLeft img{
+        border: rgba(1,1,1,0.5);
+        border-style: solid;
+        border-width: 1px;
+        border-width: thin;
+        max-width: 100%;
+        max-height: 100%;
+    }
 
-.PageForward {
-  text-align: center;
-  position: relative;
-}
+    .MainTextWide {
+        background-color: rgba(255, 255, 255, 0.9);
+        margin: 0.75vw 5vw;
+        margin-left: 20vw;
+        padding: 1px 10px;
+    }
 
-.List{
-  background-color: rgba(255, 255, 255, 0.9);
-  margin: 0.75vw 20vw;
-  padding: 1px 10px;
-}
+    .PageForward {
+        margin-left: 15vw;
+        text-align: center;
+        position: relative;
+    }
 
-.Button {
-  text-align: center;
-}
+    .List{
+        background-color: rgba(255, 255, 255, 0.9);
+        margin: 0.75vw 5vw;
+        margin-left: 20vw;
+        padding: 1px 10px;
+    }
 
-.Button2 {
-  text-align: center;
-}
+    .Button {
+        text-align: center;
+    }
 
-.HorizontalButtons {
-  display: inline-block;
-}
+    .Button2 {
+        text-align: center;
+    }
 
-.text-container {
-  margin: 1vw;
-  overflow: hidden;
-  display: block;
-}
+    .HorizontalButtons {
+        display: inline-block;
+    }
 
-.authorbox {
-  background-color: #333;
-  float: right;
-  position: fixed;
-  padding: 1vw;
-  margin-top: 0.75vw;
-  left: 87.5%;
-  transition: 0.4s;
-}
+    .text-container {
+        margin: 1vw;
+        overflow: hidden;
+        display: block;
+    }
 
-table {
-  width: 100%;
-}
+    .authorbox {
+        z-index: 10;
+        float: left;
+        position: fixed;
+        padding: 1vw;
+        margin-top: 32.5vw;
+        left: 1.5%;
+        transition: 0.4s;
+    }
 
-.none {
-  font-size: auto;
-  font-family: auto;
-  font-style: normal;
-  font-weight: normal;
-  font-style: normal;
-  color: black;
+    .authortextbox{
+        vertical-align: middle;
+        padding-top: 1vw;
+    }
+
+    .authorcircle {
+        background-color: #333;
+        border-radius: 50%;
+        width: 10vw;
+        height: 10vw;
+        text-align: center;
+        -webkit-box-shadow: 0px 0px 3px 3px rgba(0,0,0,0.25);
+        -moz-box-shadow: 0px 0px 3px 3px rgba(0,0,0,0.25);
+        box-shadow: 0px 0px 3px 3px rgba(0,0,0,0.25);
+    }
+
+    table {
+        width: 100%;
+    }
+
+    .none {
+        font-size: auto;
+        font-family: auto;
+        font-style: normal;
+        font-weight: normal;
+        font-style: normal;
+        color: black;
+    }
+}
 }
